@@ -1,0 +1,40 @@
+.sub{
+    background-color:white;
+    display:grid;
+    height:350px;
+    border-radius:4px;
+    grid-template-areas: 'profile profile' 'button1 button2';
+    padding: 10px 5px;
+    box-shadow: 1px 1px 4px 4px rgb(190, 162, 162);
+}
+#profile{
+    margin-top:20px;
+    margin-left: 10px;
+    grid-area: profile;
+    height:255px;
+}
+#button1{
+    grid-area: button1;
+    display:flex;
+    justify-content:space-evenly;
+}
+.btn1:hover{
+    background-color:orange;
+}
+.btn2:hover{
+    background-color:orange;
+}
+#button2{
+    grid-area: button2;
+    display:flex;
+    justify-content:space-evenly;
+}
+.premium{
+    color:white;
+    font-weight: 400;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+background-color: orange;
+display:flex;
+float:right;
+}

@@ -1,0 +1,35 @@
+.content{
+    background-color:white;
+    height:600px;
+    overflow:hidden;
+}
+.content>h1{
+    margin-top:35px;
+    margin-left: 10px;
+    margin-bottom: 25px;
+    font-weight:bold; ;
+}
+.content-card{
+    border: 2px  solid white;
+ 
+    border-radius:10px ;
+    height:375px;
+    margin: 15px;
+    padding:2px 10px;
+
+}
+.content-card-2{
+    border-radius:10px ;
+    height:100px;
+    margin: 15px;
+    padding:2px 10px;
+    display:flex;
+    justify-content:flex-end;
+
+}
+.content-card-3{
+    background-color: aliceblue;    
+    border-radius:90px ;
+    height:50px;
+
+}
